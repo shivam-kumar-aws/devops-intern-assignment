@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Golang binaries
+*.out
+*.exe
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Node modules (if any)
+node_modules/
