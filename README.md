@@ -24,7 +24,6 @@ This repository contains a Docker Compose-based setup of two backend services (o
 
 1. **Clone the Repository**
 
-```bash
 git clone https://github.com/<your-username>/devops-intern-assignment.git
 cd devops-intern-assignment
 Run the Application
