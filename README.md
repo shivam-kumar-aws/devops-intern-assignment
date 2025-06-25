@@ -4,22 +4,23 @@ This repository contains a Docker Compose-based setup of two backend services (o
 
 ## 📁 Project Structure
 
+```
 .
-├── docker-compose.yml # Orchestrates all services
+├── docker-compose.yml           # Orchestrates all services
 ├── nginx/
-│ ├── nginx.conf # Nginx reverse proxy config
-│ └── Dockerfile # Builds custom Nginx image
+│   ├── nginx.conf               # Nginx reverse proxy config
+│   └── Dockerfile              # Builds custom Nginx image
 ├── service_1/
-│ ├── main.go # Golang backend
-│ ├── go.mod
-│ └── Dockerfile
+│   ├── main.go                 # Golang backend
+│   ├── go.mod
+│   └── Dockerfile
 ├── service_2/
-│ ├── app.py # Python (Flask) backend
-│ ├── pyproject.toml
-│ ├── requirements.txt
-│ └── Dockerfile
+│   ├── app.py                  # Python (Flask) backend
+│   ├── pyproject.toml
+│   ├── requirements.txt
+│   └── Dockerfile
 └── README.md
-
+```
 
 ## 🚀 Setup Instructions
 
