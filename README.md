@@ -3,6 +3,7 @@
 This repository contains a Docker Compose-based setup of two backend services (one in Go and one in Python) behind an Nginx reverse proxy.
 
 ## 📁 Project Structure
+
 .
 ├── docker-compose.yml # Orchestrates all services
 ├── nginx/
